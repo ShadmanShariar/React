@@ -1,7 +1,12 @@
-import Message from './Message';
+
+import UserProfile from './UserProfile';
 
 function App() {
-  return <div><Message /></div>;
+  return (
+    <div className="p-8">
+      <UserProfile />
+    </div>
+  );
 }
 
 export default App;
